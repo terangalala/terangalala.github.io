@@ -1,0 +1,55 @@
+#entete, #menu, #contenu, #footer {
+padding:1px 0;
+}
+#entete {
+background-color:rgb(179, 245, 209);
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-align:center;
+}
+#main {
+max-with:960px;
+margin:auto;
+}
+#menu  {
+float:left;
+width:240px;
+background-color:beige;
+}
+#contenu {
+margin-left:245px;
+background-color:beige;
+}
+#footer {
+background-color:rgb(179, 245, 209);
+text-align:center;
+clear:both;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+  background-color: beige;
+}
+p{
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+  h4{
+    color:black;
+    font-family: fantasy;
+  }
+h1,h2{
+    margin-top: 50px;
+    text-align: center;
+    font-family: fantasy;
+    animation: apparition 0.8s ease-out;
+  }
+  @keyframes apparition {
+    from {
+      opacity: 0;
+      transform: translateY(-100px);
+    }
+    to{
+      opacity: 1;
+      transform: translateY(0px
+      );
+    }
+  }
